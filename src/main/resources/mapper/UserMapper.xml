@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seejoke.micro.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.seejoke.micro.entity.User">
+    <id column="user_id" jdbcType="VARCHAR" property="userId"/>
+    <result column="open_id" jdbcType="VARCHAR" property="openId"/>
+    <result column="user_token" jdbcType="VARCHAR" property="userToken"/>
+    <result column="city" jdbcType="VARCHAR" property="city"/>
+    <result column="nickname" jdbcType="VARCHAR" property="nickname"/>
+    <result column="avatar" jdbcType="VARCHAR" property="avatar"/>
+    <result column="sex" jdbcType="CHAR" property="sex"/>
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+    <result column="ip" jdbcType="VARCHAR" property="ip"/>
+    <result column="pwd" jdbcType="VARCHAR" property="pwd"/>
+    <result column="user_status" jdbcType="INTEGER" property="userStatus"/>
+    <result column="mobile" jdbcType="VARCHAR" property="mobile"/>
+  </resultMap>
+</mapper>
